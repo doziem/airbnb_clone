@@ -1,0 +1,45 @@
+.banner {
+  background: url('./img/background.jpg');
+  height: 75vh;
+  align-items: center;
+  position: relative;
+}
+
+.banner__info {
+  background: black;
+  color: #fff;
+  width: 300px;
+  padding-top: 25vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: inherit;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__info > button:hover {
+  background-color: #fff;
+  color: #ff7779;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: #fff !important;
+  text-transform: initial !important;
+  color: #ff7779 !important;
+  font-weight: 900 !important;
+  border-radius: 0px !important;
+}
